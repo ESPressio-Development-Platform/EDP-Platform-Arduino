@@ -1,7 +1,7 @@
 {
   "name": "EDP-Platform-Arduino",
-  "description": "Arduino framework backend implementations and Arduino-owned integration adapters for the ESPressio Development Platform",
-  "keywords": "espressio,platform,arduino,backend,concurrency,bounded,string,embedded",
+  "description": "Arduino-specific integration adapters and concrete providers for the ESPressio Development Platform",
+  "keywords": "espressio,platform,arduino,bounded,string,embedded",
   "homepage": "https://espressio.org",
   "authors": {
     "name": "Simon J. Stuart",
