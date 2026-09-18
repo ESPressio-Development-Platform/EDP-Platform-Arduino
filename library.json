@@ -1,7 +1,7 @@
 {
   "name": "EDP-Platform-Arduino",
-  "description": "Arduino framework backend implementations for EDP-Platform",
-  "keywords": "espressio,platform,arduino,backend,concurrency,embedded",
+  "description": "Arduino framework backend implementations and Arduino-owned integration adapters for the ESPressio Development Platform",
+  "keywords": "espressio,platform,arduino,backend,concurrency,bounded,string,embedded",
   "homepage": "https://espressio.org",
   "authors": {
     "name": "Simon J. Stuart",
@@ -9,8 +9,12 @@
     "url": "https://espressio.org"
   },
   "build": {
-    "flags": ["-std=gnu++17"],
-    "unflags": ["-std=gnu++11"]
+    "flags": [
+      "-std=gnu++17"
+    ],
+    "unflags": [
+      "-std=gnu++11"
+    ]
   },
   "repository": {
     "type": "git",
