@@ -1,5 +1,6 @@
 # Demos
 
 - `atomic-word-basic` — the Arduino `AtomicWord32` concrete provider.
+- `bounded-string-conversion` — explicit Arduino `String` to/from `Bounded::String<N>` conversion using the Arduino-owned adapter specializations.
 
-The repository remains the Arduino concrete backend. The policy-required ESP-IDF demo target disables PlatformIO's framework compatibility filter locally so the current SDK-independent atomic provider surface can be compiled there without changing the package's declared Arduino ownership or compatibility.
+Each logical demo provides Arduino IDE, PlatformIO Arduino, and PlatformIO ESP-IDF-targeted variants. The bounded-string ESP-IDF variant uses Arduino as an ESP-IDF component because Arduino `String` is the external Type being demonstrated.
