@@ -50,3 +50,7 @@ The `bounded-string-conversion` demo is provided under [`./demos`](./demos) for 
 `AtomicWord32` was moved to `EDP-Platform-Portable` because its implementation uses only Standard C++ `std::atomic`.
 
 Provider ownership follows the implementation API, not the framework through which that API happens to be available.
+
+## C++ Language Baseline
+
+ESPressio requires C++20. For Arduino-ESP32 development through a PlatformIO-compatible workflow, PIOArduino is the recommended platform baseline because it tracks a current C++20-capable Arduino-ESP32 toolchain. Stock PlatformIO Core/IDE remains usable when the project explicitly selects PIOArduino.
